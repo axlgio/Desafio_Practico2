@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1002066346870",
+    "firebase_url": "https://tallerpracticoii-9b8b5-default-rtdb.firebaseio.com",
+    "project_id": "tallerpracticoii-9b8b5",
+    "storage_bucket": "tallerpracticoii-9b8b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002066346870:android:d8446c31819f7e57a2b057",
+        "android_client_info": {
+          "package_name": "com.example.desafio_practico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002066346870-oa9nb9e20da9m2fms0mavt4vfrqu7dtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgXE5vy8g9Hs8zsIjM1wKK8DCAclRvjk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002066346870-oa9nb9e20da9m2fms0mavt4vfrqu7dtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002066346870:android:427be29b1f0a2b10a2b057",
+        "android_client_info": {
+          "package_name": "com.example.taller_practico_ii"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002066346870-oa9nb9e20da9m2fms0mavt4vfrqu7dtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgXE5vy8g9Hs8zsIjM1wKK8DCAclRvjk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002066346870-oa9nb9e20da9m2fms0mavt4vfrqu7dtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002066346870:android:65f1f5c067270f64a2b057",
+        "android_client_info": {
+          "package_name": "com.example.taller_practico_p1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002066346870-oa9nb9e20da9m2fms0mavt4vfrqu7dtt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgXE5vy8g9Hs8zsIjM1wKK8DCAclRvjk0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002066346870-oa9nb9e20da9m2fms0mavt4vfrqu7dtt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

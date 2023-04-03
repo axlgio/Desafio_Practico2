@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <EditText
+        android:id="@+id/et_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de Estudiante"
+        android:layout_marginBottom="50sp"
+        android:inputType="textPersonName"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50sp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="50sp">
+
+            <EditText
+                android:id="@+id/et_nota1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nota 1"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/et_nota2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nota 2"
+                android:inputType="numberDecimal"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="50sp">
+
+            <EditText
+                android:id="@+id/et_nota3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nota 3"
+                android:inputType="numberDecimal"/>
+
+            <EditText
+                android:id="@+id/et_nota4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Nota 4"
+                android:inputType="numberDecimal"/>
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/et_nota5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nota 5"
+            android:inputType="numberDecimal"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_promedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Promedio Final"
+        android:layout_marginBottom="50sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_texto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="Aprobo??"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:text="Guardar"
+        android:onClick="guardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="Cancelar"
+        android:onClick="cancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
